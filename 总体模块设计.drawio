@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2022-05-21T03:40:59.851Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.47" version="18.0.8" etag="MOLgwj8_0gafRCmA4_8m" type="github"><diagram id="TUYOXXvFCsU8Bt_Coby8">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-21T03:59:49.171Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.47" etag="PxnN8_Bf3iJgsotrCmev" version="18.0.8" type="github">
+  <diagram id="TUYOXXvFCsU8Bt_Coby8" name="第 1 页">
+    <mxGraphModel dx="1422" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uiMAfWaznwxs1aXPlk0b-8" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="420" y="205" width="32" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uiMAfWaznwxs1aXPlk0b-11" value="个人博客系统" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="306" y="150" width="108" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uiMAfWaznwxs1aXPlk0b-13" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="320" y="205" width="32" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uiMAfWaznwxs1aXPlk0b-15" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="270" y="205" width="32" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uiMAfWaznwxs1aXPlk0b-16" value="后&lt;br&gt;台&lt;br&gt;登&lt;br&gt;录&lt;br&gt;模&lt;br&gt;块" style="whiteSpace=wrap;html=1;align=center;rotation=90;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="190.87" y="295" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uiMAfWaznwxs1aXPlk0b-17" value="文&lt;br&gt;章&lt;br&gt;管&lt;br&gt;理&lt;br&gt;模&lt;br&gt;块" style="whiteSpace=wrap;html=1;align=center;rotation=90;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="295" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uiMAfWaznwxs1aXPlk0b-20" value="评&lt;br&gt;论&lt;br&gt;管&lt;br&gt;理&lt;br&gt;模&lt;br&gt;块" style="whiteSpace=wrap;html=1;align=center;rotation=90;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="295" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uiMAfWaznwxs1aXPlk0b-21" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="370" y="205" width="32" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uiMAfWaznwxs1aXPlk0b-18" value="分&lt;br&gt;类&lt;br&gt;管&lt;br&gt;理&lt;br&gt;模&lt;br&gt;块" style="whiteSpace=wrap;html=1;align=center;rotation=90;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="295" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uiMAfWaznwxs1aXPlk0b-19" value="标&lt;br&gt;签&lt;br&gt;管&lt;br&gt;理&lt;br&gt;模&lt;br&gt;块" style="whiteSpace=wrap;html=1;align=center;rotation=90;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="344" y="295" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uiMAfWaznwxs1aXPlk0b-22" value="" style="endArrow=none;html=1;rounded=0;fontStyle=1;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="361" y="213" as="sourcePoint" />
+            <mxPoint x="361" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
