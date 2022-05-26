@@ -1,1 +1,118 @@
-<mxfile host="app.diagrams.net" modified="2022-05-26T14:44:09.291Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.53" version="18.1.1" etag="VlFnyswGs8f-FkBAPKzv" type="github"><diagram id="A0dpBNfAdqzjvTO0L9tJ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-26T15:39:34.956Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.53" etag="jkf9Xk5Z5gClAiH2wlgs" version="18.1.1" type="github">
+  <diagram id="A0dpBNfAdqzjvTO0L9tJ" name="第 1 页">
+    <mxGraphModel dx="1422" dy="905" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uMpoC8IeEr0fO8ZSZM8N-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uMpoC8IeEr0fO8ZSZM8N-2" target="uMpoC8IeEr0fO8ZSZM8N-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uMpoC8IeEr0fO8ZSZM8N-2" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="100" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uMpoC8IeEr0fO8ZSZM8N-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="uMpoC8IeEr0fO8ZSZM8N-4" target="uMpoC8IeEr0fO8ZSZM8N-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uMpoC8IeEr0fO8ZSZM8N-4" value="发送加载评论模块的请求" style="whiteSpace=wrap;html=1;rounded=0;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="278" y="100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uMpoC8IeEr0fO8ZSZM8N-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uMpoC8IeEr0fO8ZSZM8N-6" target="uMpoC8IeEr0fO8ZSZM8N-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uMpoC8IeEr0fO8ZSZM8N-6" value="get()方法获取文章id，Service层方法listCommentByBlogId()调用Dao层方法查询该博客&lt;br&gt;的评论列表" style="whiteSpace=wrap;html=1;rounded=0;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="441" y="81.51" width="169" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="uMpoC8IeEr0fO8ZSZM8N-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uMpoC8IeEr0fO8ZSZM8N-15" target="uMpoC8IeEr0fO8ZSZM8N-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uMpoC8IeEr0fO8ZSZM8N-15" value="&lt;br&gt;Dao层执行SQL语句查询数据库" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="479.5" y="197.5" width="92" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="uMpoC8IeEr0fO8ZSZM8N-16" value="加载评论功能" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="66" y="39" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uMpoC8IeEr0fO8ZSZM8N-32" value="&lt;span style=&quot;&quot;&gt;Thymeleaf模板&lt;br&gt;将获取到的评论渲染&lt;br&gt;到评论页面&lt;/span&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="268" y="205" width="141" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uMpoC8IeEr0fO8ZSZM8N-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="1" source="uMpoC8IeEr0fO8ZSZM8N-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="431" y="489" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uMpoC8IeEr0fO8ZSZM8N-35" value="开始" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="156" y="469" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uMpoC8IeEr0fO8ZSZM8N-36" value="评论" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="66" y="302" width="34" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="uMpoC8IeEr0fO8ZSZM8N-39" value="传入评论信息" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=0;arcSize=12;size=0.23;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="272" y="469" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uMpoC8IeEr0fO8ZSZM8N-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="uMpoC8IeEr0fO8ZSZM8N-35" target="uMpoC8IeEr0fO8ZSZM8N-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="236" y="489" as="sourcePoint" />
+            <mxPoint x="493" y="489" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uMpoC8IeEr0fO8ZSZM8N-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=classic;endFill=1;entryPerimeter=0;" edge="1" parent="1" source="uMpoC8IeEr0fO8ZSZM8N-42" target="uMpoC8IeEr0fO8ZSZM8N-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="589" y="488.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uMpoC8IeEr0fO8ZSZM8N-46" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uMpoC8IeEr0fO8ZSZM8N-45">
+          <mxGeometry x="-0.3235" y="10" relative="1" as="geometry">
+            <mxPoint x="-9" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uMpoC8IeEr0fO8ZSZM8N-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="uMpoC8IeEr0fO8ZSZM8N-42" target="uMpoC8IeEr0fO8ZSZM8N-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uMpoC8IeEr0fO8ZSZM8N-42" value="前端校验数据" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="432" y="461.5" width="117" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="uMpoC8IeEr0fO8ZSZM8N-44" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="492" y="519" width="31" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="uMpoC8IeEr0fO8ZSZM8N-47" value="评论成功，Controller层调用comment()方法加载评论列表" style="whiteSpace=wrap;html=1;strokeWidth=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="148" y="581" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uMpoC8IeEr0fO8ZSZM8N-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.583;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="uMpoC8IeEr0fO8ZSZM8N-49" target="uMpoC8IeEr0fO8ZSZM8N-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uMpoC8IeEr0fO8ZSZM8N-49" value="&lt;span style=&quot;&quot;&gt;页面提示信息&lt;/span&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440.5" y="369" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uMpoC8IeEr0fO8ZSZM8N-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="uMpoC8IeEr0fO8ZSZM8N-53" target="uMpoC8IeEr0fO8ZSZM8N-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uMpoC8IeEr0fO8ZSZM8N-53" value="Controller层将这条评论与当前博客的id关联" style="whiteSpace=wrap;html=1;strokeWidth=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="589" y="469" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uMpoC8IeEr0fO8ZSZM8N-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=1;" edge="1" parent="1" source="uMpoC8IeEr0fO8ZSZM8N-42" target="uMpoC8IeEr0fO8ZSZM8N-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490.5" y="516.5" as="sourcePoint" />
+            <mxPoint x="490.5" y="789" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uMpoC8IeEr0fO8ZSZM8N-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="uMpoC8IeEr0fO8ZSZM8N-56" target="uMpoC8IeEr0fO8ZSZM8N-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uMpoC8IeEr0fO8ZSZM8N-56" value="Controller层调用Service层的saveComment()方法" style="whiteSpace=wrap;html=1;strokeWidth=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="589" y="581" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uMpoC8IeEr0fO8ZSZM8N-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="uMpoC8IeEr0fO8ZSZM8N-61" target="uMpoC8IeEr0fO8ZSZM8N-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uMpoC8IeEr0fO8ZSZM8N-61" value="saveComment()方&lt;br&gt;法调用Dao层方法&lt;br&gt;保存这条评论" style="whiteSpace=wrap;html=1;strokeWidth=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="435" y="581" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uMpoC8IeEr0fO8ZSZM8N-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="uMpoC8IeEr0fO8ZSZM8N-63" target="uMpoC8IeEr0fO8ZSZM8N-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uMpoC8IeEr0fO8ZSZM8N-63" value="&lt;br&gt;Dao层方法执行SQL语句保存评论信息" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="314" y="574.5" width="84" height="73" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
